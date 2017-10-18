@@ -20,7 +20,7 @@
 
         <div id="div"></div>
         </div>
-      <!-- <?php //echo form_open("Welcome/validar")?>-->
+      <?php echo form_open("Welcome/validar")?>
       <form>
 
 		<h1>Matricula</h1>
@@ -51,9 +51,9 @@
 		<fieldset>
 			<legend>Datos del Alumno</legend>
 				<label id="name">Nombre</label>
-				<input type="text" name="name" id="nombre">
+				<input type="text" name="name" id="nombre" name="nombre1">
 				<label>Apellido</label>
-				<input type="text" name="lastname" id="apellido">
+				<input type="text" name="lastname" id="apellido" name="apellido1">
 				<label>Sexo</label>
 				<input type="radio" name=""><label>Masculino</label>
 				<input type="radio" name=""><label>Femenino</label>
@@ -75,7 +75,7 @@
 		</fieldset>
 
 		</form>
-	<!--<?php //echo form_close() ?>-->
+	<?php echo form_close() ?>
 
 </body>
 </html>
