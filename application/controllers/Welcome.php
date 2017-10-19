@@ -30,12 +30,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('eval');
 	}
 
-	/*function validar()
+	function validar()
 	{	
 		//echo "Hola<br>";
+		//aqui  estamos  reciviendo los  datos  del  formulario
 
-		/*$name = $this->input->post('name');
 		$lastname = $this->input->post('lastname');
+		$lastname = $this->input->post('apellido1');
 
 		echo "Nombre: ".$name."  Apellido: ".$lastname;*/
 
